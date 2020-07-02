@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   
+   <head>
+   
+      <title>formulario</title>
+	  <meta charset="utf-8">
+	  
+   </head>
+
+   <body>
+  
+      <form action="cadastro.php" method="POST">
+	  
+	     <fieldset>
+	  
+	        <legend> Informações Pessoal </legend> <br>
+	  
+	           NOME:<br>
+	           <input type="text" name="nome" required autofocus maxlength="5" placeholder="5digitos"> </input><br><br>
+	           SENHA:<br>
+	           <input type="password" name="senha" placeholder="8digitos"> </input><br><br>
+	           EMAIL:<br>
+			   <input type="email" name="email" required autocomplete placeholder="robertttt@email.com"> </input><br><br>
+			   IMAGEM: <br>
+			   <input type="file" name="imagem"></input><br><br>
+               DATA: <br>
+			   <input type="date" name="data" min="2000-12-31" max="2021-12-31"></input><br><br>
+			   HORA: <br>
+			   <input type="time" name="hora" ></input><br><br>
+			   MES / ANO: <br>
+			   <input type="month" name="mes/ano" ></input><br><br>
+			   SEMANA: <br>
+			   <input type="week" name="semana" ></input><br><br>
+			   DATA E HORA: <br>
+			   <input type="datetime-local" name="data-e-hora" ></input><br><br>
+			   MENSAGEM: <br>
+			   <textarea name="mensagem" rows="5" cols="30" spellcheck="false"></textarea><br><br>
+			   <button type="button"> Clique-me</button><br><br>
+			   
+			   ESCOLA SEU VEICULO: <br>
+			   <select name="veiculo">
+			   
+			   <optgroup label="CARROS">
+			   
+			   <option name="camaro"> CAMARO </option>
+			   <option name="hilux"> HILUX </option>
+			   <option name="toyota-runner"> TOYOTA-RUNNER </option>
+			   </optgroup>
+			   
+			   <optgroup label="MOTOS">
+			   
+			   <option name="harley"> HARLEY </option>
+			   <option name="mercedes"> MERCEDES </option>
+			   <option name="virgo"> VIRGO </option>
+			   </optgroup>
+			   
+			   </select><br><br>
+			   			   
+			   URL: <br>
+			   <input type="url" name="site"></input><br><br>
+			   SEARCH: <br>
+			   <input type="search" name="pesquisa"></input><br><br>
+			   TELEFONE: <br>
+			   <input type="tel" name="telefone"></input><br><br>
+			   TIME:<br>
+			   <input type="radio" name="time" value="Vasco"> Vasco <br>
+			   <input type="radio" name="time" value="Flamengo"> Flamengo <br>
+			   <input type="radio" name="time" value="Fluminense"> Fluminense <br>
+			   <input type="radio" name="time" value="Flamengo"> Flamengo <br><br></input>
+			   CORES:<br>
+			   <input type="checkbox" name="cores" value="Açu"> Açu <br>
+			   <input type="checkbox" name="cores" value="Vermelho"> Vermelho <br>
+			   <input type="checkbox" name="cores" value="Preto"> Preto <br>
+			   <input type="checkbox" name="cores" value="Amarelo"> Amarelo <br>
+	           </input><br><br>
+			   QUANTIDADE:<br>
+			   <input type="number" name="quantidade" min="0" max="500" step="10"> <br>
+	           </input><br><br>
+			   RANGE:<br>
+			   <input type="range" name="quantidade" <br>
+	           </input><br><br>
+			   COR:<br>
+			   <input type="color" name="cor" <br>
+	           </input><br><br>
+			   <input type="submit" name="btn-enviar" value="Enviar"> </input>
+	     </fieldset>
+	  
+	  </form>
+	  
+   </body>
+
+</html>

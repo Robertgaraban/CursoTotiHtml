@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+   <head>
+      <title>Tabelas</title>
+	  <meta charset="utf-8">
+	  
+	  <style>
+	     table,th,td{border:1px solid #000;}
+	     th,td{padding: 7px;}
+	     .Nome{background-color:red;}
+	     .Email{background-color:green;}
+	     .Telefone{background-color:blue;}
+	     .Cargo{background-color:yellow;}
+	  </style>
+	  
+	  
+   </head>
+
+   <body>
+   <h1> Tabelas</h1>
+          <table>
+	         <caption> 
+		        <h2>
+		        Cadastro de Cliente
+			    </h2>
+		     </caption>
+			 <colgroup>
+			    <col class="Nome">
+			    <col class="Email">
+			    <col class="Telefone">
+			    <col class="Cargo">
+			 </colgroup>
+			 <thead>
+		        <tr>
+		           <th> Nome</th>
+			       <th> Email</th>
+			       <th> Telefone</th>
+			       <th> Cargo</th>
+		        </tr>
+			 </thead>
+			 <tbody>
+		        <tr>
+		           <td> Rodrigo</td>
+			       <td> rodrigo@gmail.com</td>
+			       <td> (21) 97353 7599</td>
+			       <td rowspan="2"> Desenvolvedor Web</td>
+		        </tr>
+	   	        <tr>
+		           <td> Erika</td>
+		           <td> erika@gmail.com</td>
+			       <td> (21) 97382 7599</td>
+		        </tr>
+			</tbody>	
+		    <tfoot>
+				<tr>
+			 	  <td colspan="4"> Total: 2</td>
+			    </tr>
+			</tfoot>	
+	     </table>
+     
+   </body>
+
+</html>
