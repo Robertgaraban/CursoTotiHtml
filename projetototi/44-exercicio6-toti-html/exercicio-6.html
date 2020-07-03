@@ -7,6 +7,17 @@
    </head>
 
    <body>
+    <h1>Cadastro no Restaurant da Comida Venezuelana</h1>
+    <fieldset>
+        <legend> Informações Pessoal </legend> <br>
+  
+           NOME:<br>
+           <input type="text" name="nome" required autofocus> </input><br><br>
+           SENHA:<br>
+           <input type="password" name="senha"> </input><br><br>
+           <input type="submit" name="btn-enviar" value="Enviar"> </input>
+  
+     </fieldset>
        <div>
             <h1>Culinária da Venezuela</h1>
                 <p>
@@ -141,6 +152,73 @@
                 <video controls width="700" height="450" autoplay>
                 <source src="LaQueMeGusta.mp4" type="video/mp4">
                 </video>
-            </th>
-    </body>
+            </th><br><br><br><br>
+    <h2>Faça seu Prato de Comida Venezuelana ao Gosto de Voce</h2>  
+
+    <fieldset>
+	  
+        <legend> Informaçoes do Prata Feiro </legend> <br>
+  
+           DATA:
+            <br>
+            <h3>Suas Escolias: </h3>
+			<select name="Suas Escolias"> <br>
+                <optgroup label="Arepas">
+                    <option name="arepa-queiso"> Arepas - Queiso - Frango - Abache </option>
+                    <option name="Arepa-ovos"> Arepas - Ovos - Maionese caseira - Calabresa </option>
+                    <option name="Presunto-Queijo"> Presunto e Queijo </option>
+                    <option name="Calabresa"> Calabresa com Queijo </option>
+                    <option name="Carne-Moída"> Carne Moída </option>
+                </optgroup>
+                <optgroup label="Cachapas">
+                    <option name="Cachapa-Presunto-Queijo"> Presunto e Queijo </option>
+                    <option name="Cachapa-Cerdo"> Cerdo Desfeado </option>
+                    <option name="Cachapa-Tradicional"> Mantega e Queijo </option>
+                    <option name="Cachapa-Carne-Seca"> Recheada com Carne Seca </option>
+                </optgroup>
+            </select><br>
+                          
+            <h3>Pimenta:</h3>
+                <input type="radio" name="Pimenta" value="Vasco"> Pouca <br>
+                <input type="radio" name="Pimenta" value="Mais"> Mais o Manos <br>
+                <input type="radio" name="Pimenta" value="Muito"> Muito <br>
+                <input type="radio" name="Pimenta" value="Cheia"> Pode Carreaga na Pimenta <br><br>
+            <h3>Cores das Pimentas:</h3>
+                <input type="checkbox" name="cores" value="Açu"> Açu <br>
+                <input type="checkbox" name="cores" value="Vermelho"> Vermelho <br>
+                <input type="checkbox" name="cores" value="Preto"> Preto <br>
+                <input type="checkbox" name="cores" value="Amarelo"> Amarelo <br>
+                </input><br>
+            <h3>Quantidade de Arepas / Cachapas:</h3>
+                <input type="number" name="quantidade" min="2" max="50" step="2"> <br>
+                </input><br>
+
+            <h3>Cerveijas / Sucos:</h3>
+                <input type="checkbox" name="cores" value="Açu"> Estale <br>
+                <input type="checkbox" name="cores" value="Vermelho"> Bohemia <br>
+                <input type="checkbox" name="cores" value="Preto"> Antartica <br>
+                <input type="checkbox" name="cores" value="Preto"> Brahma <br>
+                <input type="checkbox" name="cores" value="Amarelo"> Pura Malte <br>
+            <h3>Quantidade de Cerveijas:</h3>
+                <input type="number" name="quantidade" min="1" max="10" step="1"> <br>
+                </input>
+            <h3>Sucos:</h3>
+                <input type="checkbox" name="cores" value="Açu"> Da Casa <br>
+                <input type="checkbox" name="cores" value="Vermelho"> Maracuja <br>
+                <input type="checkbox" name="cores" value="Preto"> Laranja <br>
+                <input type="checkbox" name="cores" value="Preto"> Guarana <br>
+                <input type="checkbox" name="cores" value="Amarelo"> Abacachi <br>
+            <h3>Quantidade de Sucos:</h3>
+                <input type="number" name="quantidade" min="1" max="10" step="1"> <br>
+                </input><br>
+
+            <h3>Nivel da Fome:</h3>
+                <input type="range" name="quantidade" <br>
+                </input><br><br>
+            <h3>Cor da sua Mesa:</h3>
+                <input type="color" name="cor" <br>
+                </input><br>
+     </fieldset>
+
+        </body>
 </html>
