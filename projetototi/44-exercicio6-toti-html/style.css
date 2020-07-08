@@ -1,0 +1,146 @@
+body { 
+    font-family : 'Playfair Display', serif; 
+    font-size: 16px; 
+}
+
+h1 { 
+    color: #FFB300;
+    font-size: 89px;
+    font-weight: black;
+    line-height: 79px;
+}
+
+h2.robert {
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: right;
+}
+
+h2 {
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 34px;
+    padding-bottom: 34px;
+}
+
+h3 {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 34px;
+    padding-bottom: 34px;
+}
+
+h4 {
+        color: black;
+        font-size: 30px;
+        font-weight: bold;
+        padding-top: 34px;
+        padding-bottom: 34px;
+}
+
+p.culinaria { 
+    color: black;
+    font-size: 21px;
+    font-weight: black;
+    line-height: 1,61; 
+    text-align: justify;
+    padding-top: ;
+    padding-bottom: 34px;
+}
+
+p { 
+    color: black;
+    font-size: 14px;
+    font-weight: black;
+    line-height: 1,61; 
+    text-align: justify;
+    padding-top: 34px;
+    padding-bottom: 34px;
+}
+
+hr {
+    height: 5px;
+    background-color: #999999;
+  }
+
+p { 
+    color: black;
+    font-size: 21px;
+    font-weight: black;
+    line-height: 1,61; 
+    text-align: justify;
+}
+
+dl { 
+    color: black;
+    font-size: 21px;
+    font-weight: black;
+    line-height: 1,61; 
+    text-align: justify;
+}
+
+dt { 
+    color: black;
+    font-size: 21px;
+    font-weight: black;
+    line-height: 1,61; 
+    text-align: justify; 
+}
+
+li { 
+    color: black;
+    font-size: 21px;
+    line-height: 1,61; 
+    text-align: justify; 
+}
+
+optgroup { 
+    color: black;
+    font-size: 21px;
+    font-weight: black;
+    line-height: 1,61; 
+    text-align: justify;
+}
+
+option { 
+    color:  rgb(24, 54, 221) 
+    font-size: 21px;
+    font-weight: black;
+    line-height: 1,61; 
+    text-align: justify;
+}
+
+label.green:hover { 
+    color: rgb(58, 238, 133) 
+    font-size: 21px;
+    font-weight: black;
+    line-height: 1,61; 
+    text-align: justify;
+}
+
+label.yellow:hover { 
+    color: rgb(240, 236, 11) 
+    font-size: 21px;
+    font-weight: black;
+    line-height: 1,61; 
+    text-align: justify;
+}
+
+label.orange:hover { 
+    color: rgb(230, 149, 29) 
+    font-size: 21px;
+    font-weight: black;
+    line-height: 1,61; 
+    text-align: justify;
+}
+
+label.red:hover { 
+    color: rgb(240, 0, 0) 
+    font-size: 21px;
+    font-weight: black;
+    line-height: 1,61; 
+    text-align: justify;
+}
