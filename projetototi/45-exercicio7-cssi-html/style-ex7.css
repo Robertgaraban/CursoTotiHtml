@@ -1,0 +1,249 @@
+*{
+        box-sizing: border-box;
+}
+
+body {
+font-family: 'Playfair Display', serif;
+
+}
+
+        #main {
+                min-height: 100%;
+                margin: 0px;
+                padding: 0px;
+                display: -webkit-flex;
+                -webkit-flex-flow: row;
+                flex-flow: row;
+                }
+  
+                #main > article {
+                        margin: 0px;
+                        padding: 10px;
+                        border: 0px solid black;
+                        border-radius: 0pt;
+                        background: white;
+                        -webkit-flex: 3 1 100%;
+                        flex: 3 1 100%;
+                        -webkit-order: 2;
+                        order: 2;
+                        text-align: justify;
+                        text-size-adjust: 100px;
+                        overflow: hidden;
+                        align-items: stretch;
+                        }
+
+                        article img {
+                                width: 100%;
+                                height: auto;
+                                border-radius: 0%;
+                                margin: 0px;
+                               
+                                }
+
+                                #main1 {
+                                        min-height: 100%;
+                                        margin: 0px;
+                                        padding: 0px;
+                                        display: flex;
+                                        flex-direction: row;
+                                        align-items: flex-start;
+                                        align-items: stretch;
+
+                                        }
+                          
+                                        #main1 > div {
+
+                                                display: flex;
+                                                flex-direction: row;
+                                                flex-wrap: wrap;
+                                                flex-basis: 50%;
+                                                align-items: stretch;
+                                                                                                }      
+                                                #main1 > div article {
+                                                        margin: 0px;
+                                                        padding: 10px;
+                                                        border: 0px solid black;
+                                                        background: #372019f3;
+                                                        text-align: justify;
+                                                        display: flex;
+                                                        flex-direction: row;
+                                                        align-items: flex-start;
+                                                        flex-basis: 50%;
+                                                        color: #8c5240;
+                                                        }
+                        
+                                                article div img {
+                                                        width: 100%;
+                                                        height: auto;
+                                                        border-radius: 0%;
+                                                        margin: 0px;
+                                                        border:2px solid #fff;
+
+                                                        } 
+                                
+                                        #main1 > .dereita article {
+                                                        margin: 0px;
+                                                        padding: 10px;
+                                                        border: 0px solid black;
+                                                        background: #372019f3;
+                                                        -webkit-flex: 3 1 100%;
+                                                        flex: 3 1 100%;
+                                                        -webkit-order: 2;
+                                                        order: 2;
+                                                        text-align: justify;
+                                                        text-size-adjust: 100px;
+                                                        overflow: hidden;
+                                                        color: #8c5240;
+                                                        }
+                                        
+                                                        article .dereita img {
+                                                                width: 100%;
+                                                                height: auto;
+                                                                border-radius: 0%;
+                                                                margin: 0px;
+                                                                border:2px solid #fff;
+                                                                } 
+                                #main2 {
+                                        min-height: 100%;
+                                        margin: 0px;
+                                        padding: 0px;
+                                        display: flex;
+                                        flex-direction: row;
+                                        align-items: flex-start;
+                                        align-items: stretch;
+                                        }
+                                                          
+                                                #main2 > div {
+                                
+                                                        display: flex;
+                                                        flex-direction: row;
+                                                        flex-wrap: wrap;
+                                                        0flex-basis: 100%;
+                                                        align-items: stretch;
+                                                        
+                                                        }      
+                                                        #main2 > div article {
+                                                                margin: 0px;
+                                                                padding: 10px;
+                                                                background: #372019;
+                                                                text-align: justify;
+                                                                display: flex;
+                                                                flex-direction: row;
+                                                                align-items: flex-start;
+                                                                flex-basis: 100%;
+                                                                color: #8c5240;
+                                                                }
+
+                                                                
+                                                #main2 > div .dereita2 {
+                                                        display: flex;
+                                                        flex-direction: flex-end;
+                                                        flex-wrap: wrap;
+                                                        flex-basis: 25%;
+                                                        align-items: stretch;
+                                                        color: #8c5240;
+                                                        
+                                                        }                
+                                                                }#main2 > .dereita2 article {
+                                                                margin: 0px;
+                                                                padding: 10px;
+                                                                border: 0px solid black;
+                                                                background: #372019;
+                                                                text-align: justify;
+                                                                text-size-adjust: 100%;
+                                                                overflow: hidden;
+                                                                display: flex;
+                                                                flex-direction: flex-end;
+                                                                flex-wrap: wrap;
+                                                                flex-basis: 100%;
+                                                                align-items: stretch;
+                                                                color: #8c5240;
+                                                                
+                                                        
+                                                        }
+                                                                        
+
+                                                        
+        header {
+                width: 100%;
+                height: 100%;
+                padding: 10px;
+                background: #180e0b;
+                display: flex;
+                flex: column;
+                justify-content: space-between;
+
+                }
+
+                header img {
+                        width: 100%;
+                        height: 100%;
+                        }
+                
+                header div.especial {
+                        display: flex;
+                        flex-direction: flex-end;
+                        flex-wrap: wrap;
+                        flex-basis: 50%;
+                        align-items: stretch;
+                        color: white;
+                        background: #180e0b;
+                        }
+
+                        
+                header div.hnav {
+                        display: flex;
+                        flex-direction: flex-end;
+                        flex-wrap: wrap;
+                        flex-basis: 50%;
+                        align-items: stretch;
+                        color: #8c5240;
+                        background: #180e0b;
+                        }
+                        
+                #header1 {
+                        width: 100%;
+                        height: 100%;
+                        padding: 10px;
+                        background: #180e0b;
+                        display: flex;
+                        flex: column;
+                        justify-content: space-between;
+                
+                                }
+                
+                        #header1 img {
+                                width: 100%;
+                                height: 100%;
+                                        }
+
+        footer {
+                width: 100%;
+                height: 100%;
+                padding: 10px;
+                background: #180e0b;
+                display: flex;
+                flex: column;
+                justify-content: space-between;
+                }
+    
+                p.autor {
+                        color: #8c5240;
+                        font-size: 12px;
+                        font-weight: bold;
+                        text-align: left;
+                        margin: 10px;
+                        }
+    
+                footer.img {
+                        text-align: center;
+                        margin: 10px;
+                        }
+    
+                p.datos {
+                        color: #8c5240;
+                        font-size: 12px;
+                        font-weight: bold;
+                        text-align: right;
+                        margin: 10px;            
+                        }
